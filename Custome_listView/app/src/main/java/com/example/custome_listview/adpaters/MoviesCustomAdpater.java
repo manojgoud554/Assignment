@@ -58,6 +58,8 @@ public class MoviesCustomAdpater extends BaseAdapter {
         viewHolder.moviesNameTV.setText(movies.getMovieName());
         viewHolder.DescriptionTV.setText(movies.getDescription());
         viewHolder.RatingTV.setText(movies.getRatings());
+        viewHolder.CategoryTV.setText(movies.getCategory());
+        viewHolder.DateV.setText(movies.getDate());
         viewHolder.ImageTV.setImageResource(movies.getImage_file(position));
 
 
@@ -71,12 +73,16 @@ public class MoviesCustomAdpater extends BaseAdapter {
         TextView moviesNameTV;
         TextView RatingTV;
         TextView DescriptionTV;
+        TextView CategoryTV;
+        TextView DateTV;
         ImageView ImageTV;
         public  ViewHolder(View view)
         {
          moviesNameTV=view.findViewById(R.id.MovieName);
             RatingTV=view.findViewById(R.id.ratings);
             DescriptionTV=view.findViewById(R.id.Description);
+            CategoryTV=view.findViewById(R.id.category);
+            DateTV=view.findViewById(R.id.date);
                     ImageTV=view.findViewById(R.id.image_view);
 
         }

@@ -7,12 +7,17 @@ public class Movies {
     String MovieName;
     String ratings;
     String Description;
+    String Category;
+    String Date;
     Integer[] image_file;
 
-    public Movies(String movieName, String ratings, String description, Integer[] image_file) {
+    public Movies(String movieName, String ratings, String description,  String category;
+            String date, Integer[] image_file) {
         this.MovieName = movieName;
         this.ratings = ratings;
         this.Description = description;
+        this.Category = category;
+        this.Date = date;
         this.image_file=image_file;
 
     }
@@ -31,6 +36,14 @@ public class Movies {
 
     public void setRatings(String ratings) {
         this.ratings = ratings;
+    }
+
+    public void setCategory(String category) {
+        this.Category = category;
+    }
+
+    public void setDate(String Date) {
+        this.Date = date;
     }
 
     public String getDescription() {
