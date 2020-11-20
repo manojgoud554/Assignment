@@ -7,7 +7,8 @@
 <TableLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background-color="#ccffff">
     <TableRow
         android:layout_height="fill_parent"
         android:layout_width="fill_parent">
@@ -19,6 +20,7 @@
     <TextView
         android:id="@+id/MovieName"
         android:text="Movie_Name"
+        android:textcolor="#006666"
         android:textSize="30dp"
         android:paddingVertical="10dp"
         android:layout_width="wrap_content"
@@ -30,6 +32,7 @@
         android:text="Rating"
         android:textSize="20dp"
         android:id="@+id/ratings"
+        android:textcolor="#b32400"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -41,12 +44,31 @@
         android:id="@+id/Description"
         android:text="Description"
         android:textSize="20dp"
+        android:textcolor="#002266"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textColor="#193D96"
         ></TextView>
             </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/category"
+                    android:text="Category"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#aa00ff"></TextView>
+            </TableRow>
+            <TableRow>
+            <TextView
+                android:id="@+id/date"
+                android:text="Date"
+                android:textSize="20dp"
+                android:textcolor="#006600"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
         </TableLayout>
         <ImageView
             android:id="@+id/image_view"
