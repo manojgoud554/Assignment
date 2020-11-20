@@ -59,7 +59,7 @@ public class MoviesCustomAdpater extends BaseAdapter {
         viewHolder.DescriptionTV.setText(movies.getDescription());
         viewHolder.RatingTV.setText(movies.getRatings());
         viewHolder.CategoryTV.setText(movies.getCategory());
-        viewHolder.DateV.setText(movies.getDate());
+        viewHolder.DateTV.setText(movies.getDate());
         viewHolder.ImageTV.setImageResource(movies.getImage_file(position));
 
 

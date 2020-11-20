@@ -8,7 +8,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="horizontal"
-    android:background-color="#ccffff">
+    >
     <TableRow
         android:layout_height="fill_parent"
         android:layout_width="fill_parent">
@@ -20,7 +20,7 @@
     <TextView
         android:id="@+id/MovieName"
         android:text="Movie_Name"
-        android:textcolor="#006666"
+        android:textColor="#006666"
         android:textSize="30dp"
         android:paddingVertical="10dp"
         android:layout_width="wrap_content"
@@ -32,11 +32,11 @@
         android:text="Rating"
         android:textSize="20dp"
         android:id="@+id/ratings"
-        android:textcolor="#b32400"
+        android:textColor="#b32400"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textColor="#EC453A"
+
         ></TextView>
             </TableRow>
         <TableRow>
@@ -66,9 +66,10 @@
                 android:id="@+id/date"
                 android:text="Date"
                 android:textSize="20dp"
-                android:textcolor="#006600"
+                android:textColor="#006600"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
+            </TableRow>
         </TableLayout>
         <ImageView
             android:id="@+id/image_view"

@@ -11,7 +11,7 @@ public class Movies {
     String Date;
     Integer[] image_file;
 
-    public Movies(String movieName, String ratings, String description,  String category;
+    public Movies(String movieName, String ratings, String description,  String category,
             String date, Integer[] image_file) {
         this.MovieName = movieName;
         this.ratings = ratings;
@@ -52,6 +52,12 @@ public class Movies {
 
     public void setDescription(String description) {
         Description = description;
+    }
+
+    public String getDate() { return Date; }
+
+    public String getCategory() {
+        return Category;
     }
 
     public Integer getImage_file(int position) {
